@@ -1,0 +1,186 @@
+/* style.css */
+
+/* إعادة ضبط الأساسيات والخطوط */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    direction: rtl;
+}
+
+/* الهيدر العلوي الأخضر */
+.top-bar {
+    background-color: #005c53;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-controls select {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 0.95rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.user-controls span {
+    font-size: 0.95rem;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* شريط التنقل */
+.main-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0 30px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #4a5568;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: #005c53;
+    background-color: #e6f2f0;
+    border-bottom-color: #005c53;
+    border-radius: 6px 6px 0 0;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+/* شبكة كروت الإحصائيات */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stat-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.stat-card h3 {
+    color: #718096;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.stat-card .stat-number {
+    color: #1a202c;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* قسم جدول المواعيد */
+.appointments-section {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.appointments-section h2 {
+    color: #1a202c;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 14px 12px;
+    text-align: right;
+    border-bottom: 1px solid #edf2f7;
+    color: #2d3748;
+    font-size: 0.95rem;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* شارات الحالة (Badges) */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.badge.confirmed {
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    background-color: #f1f8e9;
+}

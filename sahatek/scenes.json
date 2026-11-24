@@ -1,0 +1,64 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "seconds": 7,
+      "bg": "#0d766e",
+      "text": {
+        "ar": "وصفة طبية لا تفهمها، انتظار طويل، ونتائج تحاليل ضائعة.",
+        "dz": "وصفة ما تفهمهاش، وانتظار طويل، ونتائج التحاليل تضيع لك.",
+        "fr": "Une ordonnance incompréhensible, une longue attente, des résultats d’analyses perdus."
+      }
+    },
+    {
+      "id": 2,
+      "seconds": 6,
+      "bg": "#0f9488",
+      "text": {
+        "ar": "صحّتي: صحتك منظّمة داخل واتساب.",
+        "dz": "صحّتي: صحّتك مرتّبة في واتساب.",
+        "fr": "Sahati : votre santé organisée dans WhatsApp."
+      }
+    },
+    {
+      "id": 3,
+      "seconds": 7,
+      "bg": "#0b5a55",
+      "text": {
+        "ar": "أرسل صورة الوصفة، وصحّتي تشرحها لك ببساطة.",
+        "dz": "ابعث تصويرة الوصفة، وصحّتي تشرحهالك بسهولة.",
+        "fr": "Envoyez la photo de l’ordonnance, Sahati vous l’explique simplement."
+      }
+    },
+    {
+      "id": 4,
+      "seconds": 7,
+      "bg": "#0f7f75",
+      "text": {
+        "ar": "احجز موعدك في ثوانٍ، وستصلك تذكيرات حتى لا تنساه.",
+        "dz": "احجز موعدك في ثواني، وتوصلك تذكيرات باش ما تنساهش.",
+        "fr": "Prenez rendez-vous en quelques secondes et recevez des rappels pour ne rien oublier."
+      }
+    },
+    {
+      "id": 5,
+      "seconds": 7,
+      "bg": "#0d766e",
+      "text": {
+        "ar": "نتائج التحاليل مرتبطة بملفك، وتحويل سهل إلى الأخصائيين.",
+        "dz": "نتائج التحاليل مربوطة بملفك، والتحويل للأخصائيين سهل.",
+        "fr": "Vos résultats d’analyses sont liés à votre dossier, avec une orientation facile vers les spécialistes."
+      }
+    },
+    {
+      "id": 6,
+      "seconds": 7,
+      "bg": "#074f4a",
+      "text": {
+        "ar": "صحّتي: رعاية صحية بسيطة للجميع. ابدأ على واتساب اليوم.",
+        "dz": "صحّتي: رعاية صحية بسيطة للجميع. ابدأ في واتساب اليوم.",
+        "fr": "Sahati : des soins simples pour tous. Commencez sur WhatsApp dès aujourd’hui."
+      }
+    }
+  ]
+}
